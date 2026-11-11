@@ -21,7 +21,7 @@ app.use(express.json());
 // Middleware for connecting frontend
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://mellifluous-starlight-10f14b.netlify.app/",
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
   }),
