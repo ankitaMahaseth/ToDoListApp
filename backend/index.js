@@ -22,6 +22,7 @@ app.use(express.json());
 app.use(
   cors({
     origin: "https://mellifluous-starlight-10f14b.netlify.app/",
+
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
   }),

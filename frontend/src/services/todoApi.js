@@ -3,6 +3,7 @@ import axios from "axios";
 // Create Axios instance
 const API = axios.create({
   baseURL: "https://todolist-backend-fhts.onrender.com",
+
   headers: {
     "Content-Type": "application/json",
   },
