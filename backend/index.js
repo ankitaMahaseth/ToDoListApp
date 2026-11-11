@@ -21,8 +21,8 @@ app.use(express.json());
 // Middleware for connecting frontend
 app.use(
   cors({
-    origin: "https://ankitatodolist.netlify.app/",
-
+    origin:
+      "https://ankitatodolist.netlify.app",
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
   }),

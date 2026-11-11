@@ -25,9 +25,8 @@ function App() {
   const fetchTodos = async () => {
     try {
       setLoading(true);
-
       const response = await getAllTodos();
-
+      console.log("Todos API Response:", response);
       setTodos(response.data);
       setError("");
     } catch (error) {

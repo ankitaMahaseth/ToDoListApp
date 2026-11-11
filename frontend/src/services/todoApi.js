@@ -2,8 +2,7 @@ import axios from "axios";
 
 // Create Axios instance
 const API = axios.create({
-  baseURL: "https://todolist-backend-fhts.onrender.com",
-
+  baseURL: "https://todolist-backend-fhts.onrender.com/todos",
   headers: {
     "Content-Type": "application/json",
   },
